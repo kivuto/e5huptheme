@@ -1,0 +1,628 @@
+/*
+
+------------------------------
+
+	TABLE OF CONTENTS
+
+	x. IMPORTS
+
+	0. HACKS AND OVERRIDES
+
+	1. TYPO
+
+	2. LAYOUT
+
+	3. MODULES
+
+	4. SDM
+
+------------------------------*/
+
+/*-----------------------------
+	x. Imports
+------------------------------*/
+/* IMPORT JQUERY UI THEME */
+@import url("//ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/smoothness/jquery-ui.css");
+
+
+/*-----------------------------
+	0. HACKS AND OVERRIDES
+------------------------------*/
+
+form input, form select, form option{
+	position:	relative !important;
+	z-index:	999 !important;
+}
+
+/*
+	REMOVE ROUNDED CORNERS - removed style as they get turned off in DSP
+------------------------------*/
+/*
+b *, b{
+	display: none !important;
+}
+*/
+
+/*
+	REMOVE TWITTER SHARE
+------------------------------*/
+.twitter-share-button.twitter-count-horizontal, tr.socialHere td div *{
+	display: none !important;
+}
+
+
+/*
+	CLASS TO MODIFY THE IMG ADDED TO THE UTILITY NAV
+------------------------------*/
+.utilnav-img{
+	height:	44px;
+	width:	214px;
+	float: left;
+	border: none;
+	background:	url(//static.onthehub.com/production/images/nudspsimple/dsp-logo.png) no-repeat top left;
+	position:	relative;
+	top:	-50px;
+	right:	25px;
+}
+
+.HeaderText li a img{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------
+	1. TYPO
+------------------------------*/
+
+@font-face {
+    font-family: 'SegoeUILight';
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.eot');
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.woff') format('woff'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.ttf') format('truetype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.svg#SegoeUILight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SegoeUINegreta';
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.eot');
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.woff') format('woff'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.ttf') format('truetype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.svg#SegoeUINegreta') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SegoeUINormal';
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.eot');
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.woff') format('woff'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.ttf') format('truetype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.svg#SegoeUINormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html body *{
+	font-family: 'SegoeUINormal', 'Arial', sans-serif;
+	/* font-weight: normal; */
+	letter-spacing: .01em;
+}
+
+a, a:visited, a:link{
+    text-decoration:    none;
+    color:              #7fba00;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------
+	2. LAYOUT
+------------------------------*/
+html body{
+	margin-top:		0;
+}
+
+html body div#main{
+	background-color:	#f5f5f5;
+	padding:			20px 25px;
+	position:		relative;
+	width:			760px;
+	top:	100px;
+}
+
+#mainSpacer{
+	padding-top:20px;
+}
+
+div.Logo{
+	background-image: url(//static.onthehub.com/production/images/nudspsimple/nudspsimple-banner.png);
+	width: 760px;
+	min-height: 77px;
+}
+
+html body div#main > table{
+	position:	relative;
+	bottom:	70px;
+}
+
+html body div#main > table table{
+
+}
+
+#header{
+	position:		relative;
+/*	top:	-100px; */
+}
+
+#content{
+	position:		relative;
+/*	top:	-140px; */
+	background-color:	#fff;
+}
+
+.bg-decal{
+	position: absolute;
+	right: -57px;
+	top: -5px;
+	background: url(//static.onthehub.com/production/images/nudspsimple/bg-topright-decal.png) no-repeat top right;
+	height: 70px;
+	width:	90px;
+}
+
+html body .SecondaryColor.HeaderStoreNameBar{
+	color: #666;
+	border: 0px;
+	background: #f5f5f5;
+	display: table-row;
+}
+
+html body .SecondaryColor.HeaderStoreNameBar .HeaderStoreName{
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 10px 10px 0px 0px;
+	text-align: left;
+}	
+	
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------
+	3. MODULES
+------------------------------*/
+
+/* E5S LITTLE SECRET */
+.PrimaryColor{
+	background:		transparent !important;
+	
+}
+
+.SecondaryColor{
+	background:		transparent;
+	border:			0px;
+	background:		#7fba00;
+}
+
+html body div.SecondaryColor{
+	background:		#7fba00 !important;
+}
+
+/*
+	UTILITY NAV
+------------------------------*/
+
+html body #header ul{
+	padding-bottom:	5px;
+	border-bottom:	1px solid #999;
+	margin-bottom:	-10px;
+	padding-top:	30px;
+	position:		relative;
+	right:			35px;
+	width:			750px;
+	top:			-45px;
+}
+
+ul.HeaderText li{	
+	padding:	0 2px 0 10px;
+}
+
+
+#ctl00_pnlUserContext{
+	margin-bottom:	20px !important;
+	position:	relative;
+	left:	24px;
+	bottom:	30px;
+}
+/*
+	MAIN MENU
+------------------------------*/
+html body div.NavigationMenu{
+	position:		relative;
+/*	bottom:			95px; */
+	background: 	transparent url(//static.onthehub.com/production/images/nudspsimple/bg-main-menu.png) no-repeat top left;
+	height:			54px;
+	color:			#4e4e4e;
+	z-index:		10;
+}
+
+div.NavigationMenu a, div.NavigationMenu a:link, div.NavigationMenu a:visited{
+	color:			#4e4e4e;
+} 
+
+html body table tr td.NavigationMenuItem.SecondaryColor.NavigationMenuSecondaryColor{
+	border-width:	0px;
+	background:		transparent !important;
+}
+
+table.NavigationMenu td.NavigationMenuPrimaryColor a, div.NavigationMenu table.NavigationMenu td.NavigationMenuItem a{
+	font-size:		13px;
+	padding-top:	12px;
+	padding-bottom:	24px;
+	background-color:	transparent;
+	border:			0px none transparent;
+	color:			#4E4E4E !important;
+}
+
+table.NavigationMenu td.NavigationMenuPrimaryColor a:hover, div.NavigationMenu table.NavigationMenu td.NavigationMenuItem a:hover{
+	background-color:	transparent !important;
+}
+
+html body table.NavigationMenu td.NavigationMenuItemSelected a{
+	background:		transparent url(//static.onthehub.com/production/images/nudspsimple/mainmenu-selected.png) no-repeat bottom center;
+}
+
+.NavigationMenuItemSelected{
+	border: 0px none transparent;
+}
+
+/*
+	CHILD MENU
+----------------------------*/
+html body div.NavigationChildMenu{
+border: 0px none transparent;
+background: #EFEFEF !important;
+padding-top: 20px;
+margin-top: -20px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+text-indent:	15px;
+}
+
+html body div.NavigationChildMenu.PrimaryColor span a{
+	color:	black;
+}
+
+
+/*   Custom Menu Content
+----------------------------*/
+
+#header_container p{
+	padding: 0px;
+	margin:	0px;
+}
+
+.custom-menu-item-img{
+	float:	right;
+}
+
+.clear{
+	height:	1px;
+	weight:	1px;
+	clear:	both;
+	display:	block;
+}
+
+#header_container{
+	position:		relative:
+	z-index: 9;
+}
+
+html body #dsp-custom-menu-item{
+	padding-bottom: 0px;
+	padding-top:	10px;
+	position: relative;
+	background: white;
+	background-color:	#fff !important;	
+	z-index: 9;
+	font-size: 15px;
+	font-weight: normal;
+	margin-top:	-20px;
+	margin-bottom:	-20px;
+}
+
+#dsp-custom-menu-item .ui-widget-content{
+	border:	0px none transparent;
+	padding-top:	0px;
+}
+
+#dsp-custom-menu-item .ContentSectionHeader{
+	color:		#333 !important;
+}
+
+#dsp-custom-menu-item .ui-widget-content p{
+	padding-top:	10px;
+	padding-bottom:	5px;
+	line-height:	18px;
+}
+
+#dsp-custom-menu-item .ui-widget-content p + p{
+	padding-bottom:	0px;
+	line-height:	18px;
+}
+
+
+/*
+	SEARCH BOX
+-----------------------------*/
+html body .SearchContainer fieldset{
+	z-index:	999;
+}
+
+/*
+	SEARCH BOX
+-----------------------------*/
+div#ctl00_cpBetweenBannerAndMenu_ucAnnouncements_pnlAnnouncements{
+	margin-bottom:	10px !important;
+}
+
+/*
+	PRODUCT CATEGORIES
+------------------------------*/
+#ctl00_cpContent_tdProductCategories{
+	
+}
+
+html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]{
+
+}
+
+html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]:hover{
+	background-color:	#efefef !important;
+	
+	transition: background-color .2s;
+	-moz-transition: background-color .2s; /* Firefox 4 */
+	-webkit-transition: background-color .2s; /* Safari and Chrome */
+	-o-transition: background-color .2s; /* Opera */
+}
+
+#ctl00_cpContent_tdProductCategories .ContentSectionWrapper.SecondaryColor{
+	border:			1px solid #efefef;
+}
+
+#ctl00_cpContent_tdProductCategories div table td, #ctl00_cpContent_tdProductCategories div div table{
+	border: 0px none transparent;
+	background:	#efefef;
+}	
+
+#ctl00_cpContent_tdProductCategories .ContentSection{
+	
+}
+
+/* LINKS IN CATEGORIES BOX BLANKET */
+#ctl00_cpContent_tdProductCategories .ContentSectionBody a span span, .ContentSectionHeader a span span{
+	font-size:			12px;
+	font-weight:		normal;
+	background:			transparent url(//static.onthehub.com/production/images/nudspsimple/categories-listitem-bg.png) no-repeat 0px 5px;
+	padding-left:		10px;
+	color:				#575757;
+}
+
+.ContentSectionHeader a:hover, .ContentSectionBody a:hover, .ContentSectionHeader a:visited, .StandardColor.ui-widget-content a, .StandardColor.ui-widget-content a:visited{
+	text-decoration:		none;
+	color:					#7fba00;
+}
+
+/* Make other links not green */
+.ProducerTable a span span, #infoTabs ul li a, div.tabs ul.ui-tabs-nav li a span{
+	color:		#575757;
+}
+
+
+/* LINKS IN CATEGORIES BOX */
+.ContentSectionBody{
+
+}
+
+/* ACTIVE LINK IN CATEGORIES BOX */
+#ctl00_cpContent_tdProductCategories .ContentSectionHeader a span span{
+	color:				#7fba00;
+	font-size:			12px !important;
+}
+
+#ctl00_cpContent_tdProductCategories .ui-widget-content{
+	border:				0px none transparent;
+	padding:			5px 0px 5px 0px;
+	background:			#fff;
+	
+	transition: background-color .2s;
+	-moz-transition: background-color .2s; /* Firefox 4 */
+	-webkit-transition: background-color .2s; /* Safari and Chrome */
+	-o-transition: background-color .2s; /* Opera */
+}
+
+
+/* PMV Main Area  */
+#ctl00_cpContent_tdProductCategories + td .ContentSectionWrapper{
+	display:		block;
+
+}
+
+#ctl00_cpContent_tdProductCategories + td .ContentSectionWrapper .ContentSectionBody{
+	border:	0px none transparent;
+	background:	#fff;
+}
+
+
+html body #ctl00_cpContent_tdProductCategories div.ContentSectionWrapper .ContentSectionBody tr td{
+	padding:	5px 0px 5px 10px;
+}
+
+/*
+	PAGINATION
+------------------------------*/
+ul#pagination{
+	list-style:	none;
+}
+
+ul#pagination li{
+	display:	inline;
+	padding-right:	10px;
+}
+
+/*
+	SPECIFIC PAGE STYLES - MOSTLY
+-----------------------------------*/
+
+.buttons button img, .buttons a img{
+	padding-right:	15px;
+}
+
+html body a[id*="AddToCart"].positive{
+	margin: auto;
+	text-align: center;
+	background: #7FBA00;
+	color: white;
+}
+
+html body a[id*="AddToCart"].positive{
+	background: #91d400;
+}
+
+a[id^="ctl00_cpContent_ucOfferingList_rptProducts_ctl00_rptProductLinks"]{
+	padding-left:	20px;
+}
+
+/*
+	INSIDE #CONTENT TRYING TO MANAGE MOST OF THE INTERNAL PAGES
+-----------------------------------*/
+
+html body div#content{
+	width:		740px;
+	padding:	10px;
+}
+
+/*/ WRAPPER /*/
+div#content div.ContentSectionWrapper{
+	display:	block;
+}
+
+/*/ CONTENT SECTION WRAPER /*/
+div#content div.ContentSectionWrapper div.ContentSection{
+
+}
+
+
+html body .smaller, html body .mall, html body .XSmall{
+	font-size: inherit;
+}
+
+html body .ui-widget-content{
+	border:0px none transparent;
+	background:	#fff;
+}
+
+html body table#ctl00_cpContent_fvOfferingDetails_tblOffering tr td{
+	height:	auto;
+}
+
+html body table#ctl00_cpContent_fvOfferingDetails_tblOffering h3{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ADs */
+
+div#ctl00_rightContent{
+	position:	relative;
+	left:	30px;
+}
+
+.HeaderText a, .HeaderText a:visited, a.HeaderText, a.HeaderText:visited, .ContentText a, .ContentText a:visited, a.ContentText, a.ContentText:visited, .FooterText a, .FooterText a:visited, a.FooterText, a.FooterText:visited{
+	color:	#4E4E4E !important;
+}
+
+.HeaderText a:hover, a.HeaderText:hover, .ContentText a:hover, a.ContentText:hover, .FooterText a:hover, a.FooterText:hover{
+		color:	#000000 !important;
+
+}
+
+div.ContentSectionHeader.ui-widget-header
+ { 
+	border: medium none; 
+	background: none repeat scroll 0 0 transparent; 
+	color: #fff;
+	/*font-weight: inherit;*/ 
+}
+
+
+/* Disabled look disabled */
+
+input[disabled="disabled"]{
+	background: #EFEFEF;
+	cursor: no-drop;
+}
+
+/*-----------------------------
+	4. SDM
+------------------------------*/
+
+#languageControl dl dd ul{
+	z-index:		9999;
+	position:		absolute;
+}
+
+html body .PageHeaderContainer{
+	margin-bottom:	45px;
+	position: relative;
+	z-index: 9999;	
+}
+
+div#ctl00_cpContent_pnlOrderSummary div.SdmOrderHeaderBackground{
+	color: 	#fff;
+}
+
+div#ctl00_cpContent_pnlOrderItems div.SdmOrderHeaderBackground{
+	color:	#fff;
+}
+
+
+.ds-button 
+{
+	font-weight: bold;
+}
+
+#main-container 
+{
+	padding: 0.5em 0 0 0;
+}
+
+/* Announcement Fix */
+
+html body div.WebStoreAnnouncementDialog, html body div.WebStoreAnnouncementDialog .ui-widget-header{
+	background:		#7fba00 !important;
+	border: 2px solid #7fba00;
+}
+
+html body div.WebStoreAnnouncementDialog .ui-widget-header *{
+     color: #fff;
+}
+
+html body div.WebStoreAnnouncementDialog .ui-dialog-content.ui-widget-content{
+background-image: none;
+background-color: #fff;    
+}
+
+
+
+/* 
+	2013 August 9 - 10:26am - v_20
+*/
