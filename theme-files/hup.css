@@ -547,11 +547,12 @@ div#ctl00_rightContent{
 }
 
 .HeaderText a, .HeaderText a:visited, a.HeaderText, a.HeaderText:visited, .ContentText a, .ContentText a:visited, a.ContentText, a.ContentText:visited, .FooterText a, .FooterText a:visited, a.FooterText, a.FooterText:visited{
-	color:	#4E4E4E !important;
+	color:	#41669A !important;
 }
 
 .HeaderText a:hover, a.HeaderText:hover, .ContentText a:hover, a.ContentText:hover, .FooterText a:hover, a.FooterText:hover{
-		color:	#000000 !important;
+		color:	#41669A !important;
+		text-decoration: underline;
 
 }
 
