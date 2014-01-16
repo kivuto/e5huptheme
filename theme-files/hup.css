@@ -162,6 +162,7 @@ html body div#main > table table{
 
 #header{
 	position:		relative;
+	width: 760px !important;
 /*	top:	-100px; */
 }
 
