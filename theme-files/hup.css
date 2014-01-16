@@ -62,7 +62,7 @@ b *, b{
 	background:	url(http://git.onthehub.com/e5hupTheme2014/theme-files/img/ms-hup-logo.jpg) no-repeat top left;
 	position:	relative;
 	top:	-50px;
-	right:	25px;
+	right:	5px;
 }
 
 .HeaderText li a img{
@@ -226,8 +226,8 @@ html body #header ul{
 	margin-bottom:	-10px;
 	padding-top:	30px;
 	position:		relative;
-	right:			-25px;
-	width:			750px;
+	right:			5px;
+	width:			760px;
 	top:			-28px;
 }
 
@@ -239,7 +239,7 @@ ul.HeaderText li{
 #ctl00_pnlUserContext{
 	margin-bottom:	20px !important;
 	position:	relative;
-	left:	24px;
+	left:	-5px;
 	bottom:	30px;
 }
 /*
