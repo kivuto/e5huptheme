@@ -134,7 +134,7 @@ html body{
 }
 
 html body div#main{
-	background-color:	#f5f5f5;
+	background-color:	#FFF;
 	padding:			20px 25px;
 	position:		relative;
 	width:			760px;
@@ -157,7 +157,7 @@ html body div#main > table{
 }
 
 html body div#main > table table{
-
+	margin-top: 10px;
 }
 
 #header{
@@ -183,7 +183,7 @@ html body div#main > table table{
 html body .SecondaryColor.HeaderStoreNameBar{
 	color: #666;
 	border: 0px;
-	background: #f5f5f5;
+	background: #FFF;
 	display: table-row;
 }
 
