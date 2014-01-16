@@ -157,7 +157,7 @@ html body div#main > table{
 }
 
 html body div#main > table table{
-	margin-top: 10px;
+	
 }
 
 #header{
@@ -252,6 +252,7 @@ html body div.NavigationMenu{
 	height:			54px;
 	color:			#4e4e4e;
 	z-index:		10;
+	margin-top: 10px;
 }
 
 div.NavigationMenu a, div.NavigationMenu a:link, div.NavigationMenu a:visited{
