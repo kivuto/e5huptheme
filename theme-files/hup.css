@@ -55,7 +55,7 @@ b *, b{
 	CLASS TO MODIFY THE IMG ADDED TO THE UTILITY NAV
 ------------------------------*/
 .utilnav-img{
-	height:	44px;
+	height:	62px;
 	width:	214px;
 	float: left;
 	border: none;
@@ -228,7 +228,7 @@ html body #header ul{
 	position:		relative;
 	right:			-25px;
 	width:			750px;
-	top:			-45px;
+	top:			-28px;
 }
 
 ul.HeaderText li{	
@@ -357,6 +357,14 @@ html body #dsp-custom-menu-item{
 #dsp-custom-menu-item .ui-widget-content p + p{
 	padding-bottom:	0px;
 	line-height:	18px;
+}
+
+#ctl00_ucCultureCurrencySelection_hlCulture{
+	font-size: 90%;
+}
+
+#ctl00_lblUserName {
+	font-weight: normal !important;
 }
 
 
