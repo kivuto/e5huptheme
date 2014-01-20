@@ -60,3 +60,10 @@ jquery_1_7_1('.twitter-share-button.twitter-count-horizontal,.socialHere td div
 3. Under theme, click on the name displayed
 and paste the URL of your stylesheet it  	(In this case:
 http://git.onthehub.com/e5hupTheme2014/theme-files/hup.css)
+
+
+
+### STEP 3 - Upload banner ###
+1. Click on 'Attachments'
+2. If there is already a banner, make sure to delete it
+3. Upload your new banner my clicking 'New'
