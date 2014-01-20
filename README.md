@@ -2,15 +2,29 @@
 -----
 Created on Mon Jan 13 11:53:53 EST 2014
  
-e5 Settings to make the theme work:
+### Description
+This is the theme for HUP (Home Use Program) wenstores in e5. It has a javacript file (hup.js) a css file (hup.css) and 3 images that make up the theme. The javascript is used to switch the order of the top right hand navigations as well as... *ian please complete*
 
-## STEP 1 - Setting up the JavaScripts
-1. Go to
-Miscellaneous, and select 'Web Site Scripts'
+
+-----
+
+## Steps for Implementation by Development Team
+
+*Ian Please filll this out with the line numbers of images to chage as well as anything else you see fit*
+
+1. Line 99 : swap out image path with newly uploaded static location
+2. make sure JS file is laoded on all pages of the webstore.
+3. make sure CSS file is loaded... ect ect
+
+----- 
+
+## Theme Development Steps
+
+### STEP 1 - Setting up the JavaScripts
+1. Go to Miscellaneous, and select 'Web Site Scripts'
 2. Hit 'New'.
-3. Name it 'DreamSparkPremium' with the default values, and hit 'Save'.
-4. Navigate to the
-properties tab once you have saved it 
+3. Name it 'hupthemejs' with the default values, and hit 'Save'.
+4. Navigate to the properties tab once you have saved it 
 5. Click on 'Add Properties' 
 6. Check off 'Content' and 'Pages' and click OK
 7. Click on 'New' under Content
@@ -37,7 +51,9 @@ jquery_1_7_1('.twitter-share-button.twitter-count-horizontal,.socialHere td div
 11. Make sure to change it from a draft to
     testing, and then testing to public!
 
-############### STEP 2 - Selecting the theme ################## 1. Click on
-'WebStore' 2. Click on 'Properties' 3. Under theme, click on the name displayed
+### STEP 2 - Selecting the theme 
+1. Click on 'WebStore'
+2. Click on 'Properties'
+3. Under theme, click on the name displayed
 and paste the URL of your stylesheet it  	(In this case:
 http://git.onthehub.com/e5hupTheme2014/theme-files/hup.css)
