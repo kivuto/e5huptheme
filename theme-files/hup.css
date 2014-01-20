@@ -165,11 +165,12 @@ html body div#main{
 	padding-top:0px;
 }
 
-div.Logo{
+/*div.Logo{
 	background-image: url(//static.onthehub.com/production/images/nudspsimple/nudspsimple-banner.png);
 	width: 760px;
 	min-height: 77px;
 }
+*/
 
 html body div#main > table{
 	position:	relative;
@@ -190,15 +191,6 @@ html body div#main > table table{
 	position:		relative;
 /*	top:	-140px; */
 	background-color:	#fff;
-}
-
-.bg-decal{
-	position: absolute;
-	right: -57px;
-	top: -5px;
-	background: url(//static.onthehub.com/production/images/nudspsimple/bg-topright-decal.png) no-repeat top right;
-	height: 70px;
-	width:	90px;
 }
 
 html body .SecondaryColor.HeaderStoreNameBar{

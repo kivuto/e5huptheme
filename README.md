@@ -1,20 +1,23 @@
 # e5hupTheme2014
 -----
 Created on Mon Jan 13 11:53:53 EST 2014
+
+Author: Ian Clarke
  
-### Description
-This is the theme for HUP (Home Use Program) wenstores in e5. It has a javacript file (hup.js) a css file (hup.css) and 3 images that make up the theme. The javascript is used to switch the order of the top right hand navigations as well as... *ian please complete*
+## Description
+This is the theme for HUP (Home Use Program) webstores in e5. It has a javacript file (hup.js) a css file (hup.css) and 2 images (hup-banner.jpg, ms-hup-logo.jpg) that make up the theme. The javascript is used to switch the order of the top right hand navigations.
+
+There is a deafult image to be used as the banner and the theme is largely based of of the DreamSparkPremium e5 Theme.
 
 
 -----
 
-## Steps for Implementation by Development Team
+## Tasks for Implementation by Development Team
 
-*Ian Please filll this out with the line numbers of images to chage as well as anything else you see fit*
-
-1. Line 99 : swap out image path with newly uploaded static location
-2. make sure JS file is laoded on all pages of the webstore.
-3. make sure CSS file is loaded... ect ect
+1. Swap out all images references to *git.onthehub.com with* *Static* equivilant in hup.css
+2. Ensure JS file is laoded on all pages of the webstore.
+3. Ensure CSS file is loaded on all pages of the webstore.
+4. If the webstore has no banner attachemtn use the file `hup-banner.jpg` as the default.
 
 ----- 
 
