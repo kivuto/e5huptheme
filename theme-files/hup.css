@@ -34,6 +34,26 @@ form input, form select, form option{
 	z-index:	999 !important;
 }
 
+/* OVERRIDING STYLES APPLIED TO SEARCHBOX TD */
+.SearchContainer {
+	border: none !important;
+	padding: 0px !important;
+}
+
+
+/* OVERRIDING BOLD HEADERS IN UI */
+.ui-widget-header {
+	font-weight: normal !important;
+}
+
+/* OVERRIDING ROUNDED CORNERS IN CHECKOUT BREADCRUMB */
+
+div.ContentSection.StandardColor.ui-widget-content.ui-corner-all {
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+
 /*
 	REMOVE ROUNDED CORNERS - removed style as they get turned off in DSP
 ------------------------------*/
@@ -120,7 +140,7 @@ html body *{
 
 a, a:visited, a:link{
     text-decoration:    none;
-    color:              #7fba00;
+    color:              #41669A;
 }
 
 
@@ -134,22 +154,23 @@ html body{
 }
 
 html body div#main{
-	background-color:	#FFF;
-	padding:			20px 25px;
+	background-color:	#F5F5F5;
+	padding:			0px 25px;
 	position:		relative;
 	width:			760px;
-	top:	100px;
+	top:	120px;
 }
 
 #mainSpacer{
-	padding-top:20px;
+	padding-top:0px;
 }
 
-div.Logo{
+/*div.Logo{
 	background-image: url(//static.onthehub.com/production/images/nudspsimple/nudspsimple-banner.png);
 	width: 760px;
 	min-height: 77px;
 }
+*/
 
 html body div#main > table{
 	position:	relative;
@@ -172,19 +193,10 @@ html body div#main > table table{
 	background-color:	#fff;
 }
 
-.bg-decal{
-	position: absolute;
-	right: -57px;
-	top: -5px;
-	background: url(//static.onthehub.com/production/images/nudspsimple/bg-topright-decal.png) no-repeat top right;
-	height: 70px;
-	width:	90px;
-}
-
 html body .SecondaryColor.HeaderStoreNameBar{
 	color: #666;
 	border: 0px;
-	background: #FFF;
+	background: #F5F5F5;
 	display: table-row;
 }
 
@@ -210,12 +222,11 @@ html body .SecondaryColor.HeaderStoreNameBar .HeaderStoreName{
 .SecondaryColor{
 	background:		transparent;
 	border:			0px;
-	background:		#7fba00;
+	background:		#B71C1A;
 }
 
 html body div.SecondaryColor{
-	background:		#B71C1A !important;
-}
+	background:		#B71C1A !important}
 
 /*
 	UTILITY NAV
@@ -227,8 +238,8 @@ html body #header ul{
 	margin-bottom:	-10px;
 	padding-top:	30px;
 	position:		relative;
-	right:			5px;
-	width:			760px;
+	right:			3px;
+	width:			782px;
 	top:			-28px;
 }
 
@@ -369,12 +380,22 @@ html body #dsp-custom-menu-item{
 	font-weight: normal !important;
 }
 
+#ctl00_cpContent_h1ForgotPassword {
+	color: #41669A !important;
+}
 
 /*
 	SEARCH BOX
 -----------------------------*/
 html body .SearchContainer fieldset{
 	z-index:	999;
+}
+
+#ctl00_pnlSearch {
+	border: 1px solid lightgray;
+	padding: 2px 5px 2px 5px;
+	width: 748px;
+	background: #FFF;
 }
 
 /*
@@ -428,11 +449,15 @@ html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]:hove
 
 .ContentSectionHeader a:hover, .ContentSectionBody a:hover, .ContentSectionHeader a:visited, .StandardColor.ui-widget-content a, .StandardColor.ui-widget-content a:visited{
 	text-decoration:		none;
-	color:					#7fba00;
+	color:					#41669A;
+}
+
+.StandardColor.ui-widget-content a:hover{
+	text-decoration:		underline;
 }
 
 /* Make other links not green */
-.ProducerTable a span span, #infoTabs ul li a, div.tabs ul.ui-tabs-nav li a span{
+#infoTabs ul li a, div.tabs ul.ui-tabs-nav li a span{
 	color:		#575757;
 }
 
@@ -441,6 +466,81 @@ html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]:hove
 .ContentSectionBody{
 
 }
+
+/*
+	STYLING FOR BUTTONS
+------------------------------*/
+.AddToCartButton, .buttons a.positive, button.positive, .buyaddonsbutton, #ctl00_cpContent_rptVerifications_ctl01_btnResendConfirmationEmail, #ctl00_cpContent_btnSubmit, #ctl00_cpContent_btnCancel, #ctl00_cpContent_btnOk, #ctl00_cpContent_btnChangePassword, #ctl00_cpContent_btnRequestEligibility, #ctl00_cpContent_btnRequest, #ctl00_cpContent_upFile, #ctl00_cpContent_btnSave, #ctl00_cpContent_btnRegister, #ctl00_cpContent_btnBack, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_btnBuyUpSellOfferings, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingAddress, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingInfo, #ctl00_cpContent_btnRegisterNow, #ctl00_cpContent_btnSignIn, input#ctl00_cpContent_btnAddOfferingAddons, input#ctl00_cpContent_btnDecline, input#ctl00_cpContent_btnAccept, #ctl00_cpContent_btnChangeBillingAddress, #ctl00_cpContent_btnAddExtendedAccessGuarantee, input[id*='btnRemove'], input[id*='ct100_cpContent_btnAddOfferingAddons'], input[id*='ctl00_cpContent_btnDecline'], input[id*='btnUpdateQuantityChanges'], a#ctl00_cpContent_lhContinueShopping, input#ctl00_cpContent_btnNext, a#ctl00_cpContent_btnNext, #ctl00_cpContent_btnContinue, input[id*='btnBuyAccessGuarantee'], a#ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_hlStartDownload, a.ds-button.sdm, a.ds-button.sdx, html body .buttons a, a#ctl00_cpContent_hlFAQ, .faqButton, html body .faqButton:hover{
+
+		display: inline-block;
+		padding: 4px 14px;
+		margin-bottom: 0;
+		font-size: 14px;
+		line-height: 20px;
+		color: #333 !important;
+		text-align: center;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+		vertical-align: middle;
+		cursor: pointer;
+		background-color: whiteSmoke;
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+		background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+		background-image: -o-linear-gradient(top, white, #E6E6E6);
+		background-image: linear-gradient(to bottom, white, #E6E6E6);
+		background-image: -moz-linear-gradient(top, white, #E6E6E6);
+		background-repeat: repeat-x;
+		border: 1px solid #BBB;
+		border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+		border-bottom-color: #A2A2A2;
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+		filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	}
+}
+
+
+
+html body .buttons a[disabled], html body .buttons a[disabled]:active{
+	cursor: default;
+	background-color: #E6E6E6;
+	background-image: none;
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color:	inherit;
+}
+
+/* Little fix for the SDM for Windows/IE */
+
+html body a#ctl00_cpContent_hlFAQ{
+	background-color: whiteSmoke !important;
+	background-image:	none !important;
+}
+
+/* hovers */
+.AddToCartButton:hover, .buttons a.positive:hover, .buyaddonsbutton:hover, #ctl00_cpContent_rptVerifications_ctl01_btnResendConfirmationEmail:hover, #ctl00_cpContent_btnSubmit:hover, #ctl00_cpContent_btnCancel:hover, #ctl00_cpContent_btnOk:hover, #ctl00_cpContent_btnChangePassword:hover, #ctl00_cpContent_btnRequestEligibility:hover, #ctl00_cpContent_btnRequest:hover, #ctl00_cpContent_upFile:hover, #ctl00_cpContent_btnSave:hover, #ctl00_cpContent_btnRegister:hover, #ctl00_cpContent_btnBack:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_btnBuyUpSellOfferings:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingAddress:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingInfo:hover, #ctl00_cpContent_btnRegisterNow:hover, #ctl00_cpContent_btnSignIn:hover, button.positive:hover, input#ctl00_cpContent_btnAddOfferingAddons:hover, input#ctl00_cpContent_btnDecline:hover, input#ctl00_cpContent_btnAccept:hover, #ctl00_cpContent_btnChangeBillingAddress:hover, #ctl00_cpContent_btnAddExtendedAccessGuarantee:hover, input[id*='btnRemove']:hover, input[id*='ctl00_cpContent_btnDecline']:hover, input[id*='ct100_cpContent_btnAddOfferingAddons']:hover, input[id*='btnUpdateQuantityChanges']:hover, a#ctl00_cpContent_lhContinueShopping:hover, input#ctl00_cpContent_btnNext:hover, a#ctl00_cpContent_btnNext:hover, #ctl00_cpContent_btnContinue:hover, input[id*='btnBuyAccessGuarantee']:hover, a#ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_hlStartDownload:hover, a.ds-button.sdm:hover, a.ds-button.sdx:hover, a#ctl00_cpContent_hlFAQ:hover, html body .faqButton:hover{
+	  color: #333333;
+	  text-decoration: none;
+	  background-color: #e6e6e6 !important;
+	  border-color:		#ccc !important;
+	  *background-color: #e6e6e6/*#d9d9d9*/;
+	  /* Buttons in IE7 don't get borders, so darken on hover */
+
+	  background-position: 0 -15px;
+	  -webkit-transition: background-position 0.1s linear;
+	     -moz-transition: background-position 0.1s linear;
+	       -o-transition: background-position 0.1s linear;
+	          transition: background-position 0.1s linear;
+}
+
+
+
+
+
 
 /* ACTIVE LINK IN CATEGORIES BOX */
 #ctl00_cpContent_tdProductCategories .ContentSectionHeader a span span{
@@ -504,7 +604,7 @@ html body a[id*="AddToCart"].positive{
 }
 
 html body a[id*="AddToCart"].positive{
-	background: #91d400;
+	background: #EFEFEF;
 }
 
 a[id^="ctl00_cpContent_ucOfferingList_rptProducts_ctl00_rptProductLinks"]{
@@ -574,6 +674,9 @@ div.ContentSectionHeader.ui-widget-header
 	/*font-weight: inherit;*/ 
 }
 
+.ui-widget-header {
+	font-weight: normal !important;
+}
 
 /* Disabled look disabled */
 
@@ -635,5 +738,5 @@ background-color: #fff;
 
 
 /* 
-	2013 August 9 - 10:26am - v_20
+	2014 January 17 - 1:00 pm - v_21
 */
