@@ -75,14 +75,16 @@ b *, b{
 	CLASS TO MODIFY THE IMG ADDED TO THE UTILITY NAV
 ------------------------------*/
 .utilnav-img{
-	height:	62px;
-	width:	214px;
+	height: 62px;
+	width: 214px;
 	float: left;
 	border: none;
-	background:	url(http://git.onthehub.com/e5hupTheme2014/theme-files/img/ms-hup-logo.jpg) no-repeat top left;
-	position:	relative;
-	top:	-50px;
-	right:	5px;
+	background: url(http://git.onthehub.com/e5hupTheme2014/theme-files/img/ms-hup-logo.jpg) no-repeat top left;
+	position: relative;
+	top: -50px;
+	right: 30px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 9px;
 }
 
 .HeaderText li a img{
@@ -734,9 +736,3 @@ html body div.WebStoreAnnouncementDialog .ui-dialog-content.ui-widget-content{
 background-image: none;
 background-color: #fff;    
 }
-
-
-
-/* 
-	2014 January 17 - 1:00 pm - v_21
-*/
