@@ -155,10 +155,10 @@ html body{
 
 html body div#main{
 	background-color:	#F5F5F5;
-	padding:			20px 25px;
+	padding:			0px 25px;
 	position:		relative;
 	width:			760px;
-	top:	100px;
+	top:	120px;
 }
 
 #mainSpacer{
@@ -226,8 +226,7 @@ html body .SecondaryColor.HeaderStoreNameBar .HeaderStoreName{
 }
 
 html body div.SecondaryColor{
-	background:		#B71C1A !important;
-}
+	background:		#B71C1A !important}
 
 /*
 	UTILITY NAV
@@ -239,8 +238,8 @@ html body #header ul{
 	margin-bottom:	-10px;
 	padding-top:	30px;
 	position:		relative;
-	right:			5px;
-	width:			760px;
+	right:			3px;
+	width:			782px;
 	top:			-28px;
 }
 
@@ -396,6 +395,7 @@ html body .SearchContainer fieldset{
 	border: 1px solid lightgray;
 	padding: 2px 5px 2px 5px;
 	width: 748px;
+	background: #FFF;
 }
 
 /*
