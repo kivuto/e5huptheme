@@ -12,7 +12,7 @@ The image hup-banner.jpg is to be used as the banner to be applied to all new st
 
 -----
 
-## Tasks for Implementation by Development Team
+## Tasks for development team when implementing
 
 1. Swap out all images references to *git.onthehub.com* with *Static* equivilant in hup.css
 2. Ensure JS file is laoded on all pages of the webstore.
@@ -21,7 +21,7 @@ The image hup-banner.jpg is to be used as the banner to be applied to all new st
 
 ----- 
 
-## Theme Development Steps
+## Tasks for Marketing when developing new e5 themes
 
 ### STEP 1 - Setting up the JavaScripts
 1. Go to Miscellaneous, and select 'Web Site Scripts'

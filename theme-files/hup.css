@@ -75,14 +75,16 @@ b *, b{
 	CLASS TO MODIFY THE IMG ADDED TO THE UTILITY NAV
 ------------------------------*/
 .utilnav-img{
-	height:	62px;
-	width:	214px;
+	height: 62px;
+	width: 214px;
 	float: left;
 	border: none;
-	background:	url(http://git.onthehub.com/e5hupTheme2014/theme-files/img/ms-hup-logo.jpg) no-repeat top left;
-	position:	relative;
-	top:	-50px;
-	right:	5px;
+	background: url(http://git.onthehub.com/e5hupTheme2014/theme-files/img/ms-hup-logo.jpg) no-repeat top left;
+	position: relative;
+	top: -50px;
+	right: 30px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 9px;
 }
 
 .HeaderText li a img{
@@ -234,14 +236,14 @@ html body div.SecondaryColor{
 ------------------------------*/
 
 html body #header ul{
-	padding-bottom:	5px;
-	border-bottom:	1px solid #999;
-	margin-bottom:	-10px;
-	padding-top:	30px;
-	position:		relative;
-	right:			5px;
-	width:			760px;
-	top:			-28px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #999;
+	margin-bottom: -10px;
+	padding-top: 30px;
+	position: relative;
+	right: 0px;
+	width: 777px;
+	top: -28px;
 }
 
 ul.HeaderText li{	
