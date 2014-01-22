@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 $(function () {
     // Dependency on a newer version of jQuery than is loaded by e5 presently:
     $.getScript('//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js', function () {
@@ -9,4 +9,3 @@ $(function () {
         jquery_1_7_1('.twitter-share-button.twitter-count-horizontal,.socialHere td div *, ul.HeaderText li:odd, .socialHere td:first-child *').css('display', 'none');
     });
 });
-</script>
