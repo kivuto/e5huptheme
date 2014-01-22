@@ -1,4 +1,3 @@
-
 $(function () {
     // Dependency on a newer version of jQuery than is loaded by e5 presently:
     $.getScript('//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js', function () {

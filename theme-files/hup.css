@@ -79,7 +79,7 @@ b *, b{
 	width: 214px;
 	float: left;
 	border: none;
-	background: url(http://git.onthehub.com/e5hupTheme2014/theme-files/img/ms-hup-logo.jpg) no-repeat top left;
+	background: url(//uatintegrationstatic.e-academy.com/UatIntegration/themes/MicrosoftHUP/img/ms-hup-logo.jpg) no-repeat top left;
 	position: relative;
 	top: -50px;
 	right: 30px;
@@ -235,14 +235,14 @@ html body div.SecondaryColor{
 ------------------------------*/
 
 html body #header ul{
-	padding-bottom:	5px;
-	border-bottom:	1px solid #999;
-	margin-bottom:	-10px;
-	padding-top:	30px;
-	position:		relative;
-	right:			3px;
-	width:			782px;
-	top:			-28px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #999;
+	margin-bottom: -10px;
+	padding-top: 30px;
+	position: relative;
+	right: -24px;
+	width: 750px;
+	top: -28px;
 }
 
 ul.HeaderText li{	
@@ -253,7 +253,7 @@ ul.HeaderText li{
 #ctl00_pnlUserContext{
 	margin-bottom:	20px !important;
 	position:	relative;
-	left:	-5px;
+	left:	20px;
 	bottom:	30px;
 }
 /*
@@ -262,7 +262,7 @@ ul.HeaderText li{
 html body div.NavigationMenu{
 	position:		relative;
 /*	bottom:			95px; */
-	background: 	transparent url(//static.onthehub.com/production/images/nudspsimple/bg-main-menu.png) no-repeat top left;
+	background: 	transparent url(//uatintegrationstatic.e-academy.com/UatIntegration/themes/MicrosoftHUP/img/bg-main-menu.png) no-repeat top left;
 	height:			54px;
 	color:			#4e4e4e;
 	z-index:		10;
@@ -292,7 +292,7 @@ table.NavigationMenu td.NavigationMenuPrimaryColor a:hover, div.NavigationMenu t
 }
 
 html body table.NavigationMenu td.NavigationMenuItemSelected a{
-	background:		transparent url(//static.onthehub.com/production/images/nudspsimple/mainmenu-selected.png) no-repeat bottom center;
+	background:		transparent url(//uatintegrationstatic.e-academy.com/UatIntegration/themes/MicrosoftHUP/img/mainmenu-selected.png) no-repeat bottom center;
 }
 
 .NavigationMenuItemSelected{
@@ -444,7 +444,7 @@ html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]:hove
 #ctl00_cpContent_tdProductCategories .ContentSectionBody a span span, .ContentSectionHeader a span span{
 	font-size:			12px;
 	font-weight:		normal;
-	background:			transparent url(//static.onthehub.com/production/images/nudspsimple/categories-listitem-bg.png) no-repeat 0px 5px;
+	background:			transparent url(//uatintegrationstatic.e-academy.com/UatIntegration/themes/MicrosoftHUP/img/categories-listitem-bg.png) no-repeat 0px 5px;
 	padding-left:		10px;
 	color:				#575757;
 }
