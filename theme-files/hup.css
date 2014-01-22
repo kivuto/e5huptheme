@@ -440,7 +440,10 @@ html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]:hove
 	
 }
 
-/* LINKS IN CATEGORIES BOX BLANKET */
+//*LINKS IN CATEGORIES BOX BLANKET 
+	Not needed in this theme since HUP does not use categories.
+	Just in case it does get used we can leave this as is for now
+
 #ctl00_cpContent_tdProductCategories .ContentSectionBody a span span, .ContentSectionHeader a span span{
 	font-size:			12px;
 	font-weight:		normal;
@@ -448,6 +451,7 @@ html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]:hove
 	padding-left:		10px;
 	color:				#575757;
 }
+*/
 
 .ContentSectionHeader a:hover, .ContentSectionBody a:hover, .ContentSectionHeader a:visited, .StandardColor.ui-widget-content a, .StandardColor.ui-widget-content a:visited{
 	text-decoration:		none;
