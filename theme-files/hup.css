@@ -386,6 +386,26 @@ html body #dsp-custom-menu-item{
 	color: #41669A !important;
 }
 
+
+/*
+	FAQ PAGE STYLING
+-----------------------------*/
+
+#faqContent {
+	width: 860px;
+	margin: -20px auto 0 auto;
+	border: 1px #000;
+	border-style: solid;
+	border-width: 1px;
+	background: white !important;
+	margin-top: 80px !important; 
+	padding: 30px 30px 10px 30px !important;
+}
+
+#faqContent h2{
+	background: none !important;
+}
+
 /*
 	SEARCH BOX
 -----------------------------*/
@@ -476,7 +496,7 @@ html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]:hove
 /*
 	STYLING FOR BUTTONS
 ------------------------------*/
-.AddToCartButton, .buttons a.positive, button.positive, .buyaddonsbutton, #ctl00_cpContent_rptVerifications_ctl01_btnResendConfirmationEmail, #ctl00_cpContent_btnSubmit, #ctl00_cpContent_btnCancel, #ctl00_cpContent_btnOk, #ctl00_cpContent_btnChangePassword, #ctl00_cpContent_btnRequestEligibility, #ctl00_cpContent_btnRequest, #ctl00_cpContent_upFile, #ctl00_cpContent_btnSave, #ctl00_cpContent_btnRegister, #ctl00_cpContent_btnBack, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_btnBuyUpSellOfferings, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingAddress, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingInfo, #ctl00_cpContent_btnRegisterNow, #ctl00_cpContent_btnSignIn, input#ctl00_cpContent_btnAddOfferingAddons, input#ctl00_cpContent_btnDecline, input#ctl00_cpContent_btnAccept, #ctl00_cpContent_btnChangeBillingAddress, #ctl00_cpContent_btnAddExtendedAccessGuarantee, input[id*='btnRemove'], input[id*='ct100_cpContent_btnAddOfferingAddons'], input[id*='ctl00_cpContent_btnDecline'], input[id*='btnUpdateQuantityChanges'], a#ctl00_cpContent_lhContinueShopping, input#ctl00_cpContent_btnNext, a#ctl00_cpContent_btnNext, #ctl00_cpContent_btnContinue, input[id*='btnBuyAccessGuarantee'], a#ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_hlStartDownload, a.ds-button.sdm, a.ds-button.sdx, html body .buttons a, a#ctl00_cpContent_hlFAQ, .faqButton, html body .faqButton:hover{
+.AddToCartButton, #downloadDenied1, .buttons a.positive, button.positive, .buyaddonsbutton, #ctl00_cpContent_rptVerifications_ctl01_btnResendConfirmationEmail, #ctl00_cpContent_btnSubmit, #ctl00_cpContent_btnCancel, #ctl00_cpContent_btnOk, #ctl00_cpContent_btnChangePassword, #ctl00_cpContent_btnRequestEligibility, #ctl00_cpContent_btnRequest, #ctl00_cpContent_upFile, #ctl00_cpContent_btnSave, #ctl00_cpContent_btnRegister, #ctl00_cpContent_btnBack, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_btnBuyUpSellOfferings, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingAddress, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingInfo, #ctl00_cpContent_btnRegisterNow, #ctl00_cpContent_btnSignIn, input#ctl00_cpContent_btnAddOfferingAddons, input#ctl00_cpContent_btnDecline, input#ctl00_cpContent_btnAccept, #ctl00_cpContent_btnChangeBillingAddress, #ctl00_cpContent_btnAddExtendedAccessGuarantee, input[id*='btnRemove'], input[id*='ct100_cpContent_btnAddOfferingAddons'], input[id*='ctl00_cpContent_btnDecline'], input[id*='btnUpdateQuantityChanges'], a#ctl00_cpContent_lhContinueShopping, input#ctl00_cpContent_btnNext, a#ctl00_cpContent_btnNext, #ctl00_cpContent_btnContinue, input[id*='btnBuyAccessGuarantee'], a#ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_hlStartDownload, a.ds-button.sdm, a.ds-button.sdx, html body .buttons a, a#ctl00_cpContent_hlFAQ, .faqButton, html body .faqButton:hover{
 
 		display: inline-block;
 		padding: 4px 14px;
@@ -528,7 +548,7 @@ html body a#ctl00_cpContent_hlFAQ{
 }
 
 /* hovers */
-.AddToCartButton:hover, .buttons a.positive:hover, .buyaddonsbutton:hover, #ctl00_cpContent_rptVerifications_ctl01_btnResendConfirmationEmail:hover, #ctl00_cpContent_btnSubmit:hover, #ctl00_cpContent_btnCancel:hover, #ctl00_cpContent_btnOk:hover, #ctl00_cpContent_btnChangePassword:hover, #ctl00_cpContent_btnRequestEligibility:hover, #ctl00_cpContent_btnRequest:hover, #ctl00_cpContent_upFile:hover, #ctl00_cpContent_btnSave:hover, #ctl00_cpContent_btnRegister:hover, #ctl00_cpContent_btnBack:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_btnBuyUpSellOfferings:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingAddress:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingInfo:hover, #ctl00_cpContent_btnRegisterNow:hover, #ctl00_cpContent_btnSignIn:hover, button.positive:hover, input#ctl00_cpContent_btnAddOfferingAddons:hover, input#ctl00_cpContent_btnDecline:hover, input#ctl00_cpContent_btnAccept:hover, #ctl00_cpContent_btnChangeBillingAddress:hover, #ctl00_cpContent_btnAddExtendedAccessGuarantee:hover, input[id*='btnRemove']:hover, input[id*='ctl00_cpContent_btnDecline']:hover, input[id*='ct100_cpContent_btnAddOfferingAddons']:hover, input[id*='btnUpdateQuantityChanges']:hover, a#ctl00_cpContent_lhContinueShopping:hover, input#ctl00_cpContent_btnNext:hover, a#ctl00_cpContent_btnNext:hover, #ctl00_cpContent_btnContinue:hover, input[id*='btnBuyAccessGuarantee']:hover, a#ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_hlStartDownload:hover, a.ds-button.sdm:hover, a.ds-button.sdx:hover, a#ctl00_cpContent_hlFAQ:hover, html body .faqButton:hover{
+.AddToCartButton:hover, #downloadDenied1:hover, .buttons a.positive:hover, .buyaddonsbutton:hover, #ctl00_cpContent_rptVerifications_ctl01_btnResendConfirmationEmail:hover, #ctl00_cpContent_btnSubmit:hover, #ctl00_cpContent_btnCancel:hover, #ctl00_cpContent_btnOk:hover, #ctl00_cpContent_btnChangePassword:hover, #ctl00_cpContent_btnRequestEligibility:hover, #ctl00_cpContent_btnRequest:hover, #ctl00_cpContent_upFile:hover, #ctl00_cpContent_btnSave:hover, #ctl00_cpContent_btnRegister:hover, #ctl00_cpContent_btnBack:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_btnBuyUpSellOfferings:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingAddress:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingInfo:hover, #ctl00_cpContent_btnRegisterNow:hover, #ctl00_cpContent_btnSignIn:hover, button.positive:hover, input#ctl00_cpContent_btnAddOfferingAddons:hover, input#ctl00_cpContent_btnDecline:hover, input#ctl00_cpContent_btnAccept:hover, #ctl00_cpContent_btnChangeBillingAddress:hover, #ctl00_cpContent_btnAddExtendedAccessGuarantee:hover, input[id*='btnRemove']:hover, input[id*='ctl00_cpContent_btnDecline']:hover, input[id*='ct100_cpContent_btnAddOfferingAddons']:hover, input[id*='btnUpdateQuantityChanges']:hover, a#ctl00_cpContent_lhContinueShopping:hover, input#ctl00_cpContent_btnNext:hover, a#ctl00_cpContent_btnNext:hover, #ctl00_cpContent_btnContinue:hover, input[id*='btnBuyAccessGuarantee']:hover, a#ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_hlStartDownload:hover, a.ds-button.sdm:hover, a.ds-button.sdx:hover, a#ctl00_cpContent_hlFAQ:hover, html body .faqButton:hover{
 	  color: #333333;
 	  text-decoration: none;
 	  background-color: #e6e6e6 !important;
