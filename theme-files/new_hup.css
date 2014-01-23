@@ -1,0 +1,742 @@
+/*
+
+------------------------------
+
+	TABLE OF CONTENTS
+
+	x. IMPORTS
+
+	0. HACKS AND OVERRIDES
+
+	1. TYPO
+
+	2. LAYOUT
+
+	3. MODULES
+
+	4. SDM
+
+------------------------------*/
+
+/*-----------------------------
+	x. Imports
+------------------------------*/
+/* IMPORT JQUERY UI THEME */
+@import url("//ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/smoothness/jquery-ui.css");
+
+
+/*-----------------------------
+	0. HACKS AND OVERRIDES
+------------------------------*/
+
+form input, form select, form option{
+	position:	relative !important;
+	z-index:	999 !important;
+}
+
+/* OVERRIDING STYLES APPLIED TO SEARCHBOX TD */
+.SearchContainer {
+	border: none !important;
+	padding: 0px !important;
+}
+
+
+/* OVERRIDING BOLD HEADERS IN UI */
+.ui-widget-header {
+	font-weight: normal !important;
+}
+
+/* OVERRIDING ROUNDED CORNERS IN CHECKOUT BREADCRUMB */
+
+div.ContentSection.StandardColor.ui-widget-content.ui-corner-all {
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+
+/*
+	REMOVE ROUNDED CORNERS - removed style as they get turned off in DSP
+------------------------------*/
+/*
+b *, b{
+	display: none !important;
+}
+*/
+
+/*
+	REMOVE TWITTER SHARE
+------------------------------*/
+.twitter-share-button.twitter-count-horizontal, tr.socialHere td div *{
+	display: none !important;
+}
+
+
+/*
+	CLASS TO MODIFY THE IMG ADDED TO THE UTILITY NAV
+------------------------------*/
+.utilnav-img{
+	height: 62px;
+	width: 214px;
+	float: left;
+	border: none;
+	background: url(//uatintegrationstatic.e-academy.com/UatIntegration/themes/MicrosoftHUP/img/ms-hup-logo.jpg) no-repeat top left;
+	position: relative;
+	top: -50px;
+	right: 30px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 9px;
+}
+
+.HeaderText li a img{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------
+	1. TYPO
+------------------------------*/
+
+@font-face {
+    font-family: 'SegoeUILight';
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.eot');
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.woff') format('woff'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.ttf') format('truetype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-light-webfont.svg#SegoeUILight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SegoeUINegreta';
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.eot');
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.woff') format('woff'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.ttf') format('truetype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-bold-webfont.svg#SegoeUINegreta') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SegoeUINormal';
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.eot');
+    src: url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.woff') format('woff'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.ttf') format('truetype'),
+         url('//static.onthehub.com/production/fonts/nudspsimple/segoeui-normal-webfont.svg#SegoeUINormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html body *{
+	font-family: 'SegoeUINormal', 'Arial', sans-serif;
+	/* font-weight: normal; */
+	letter-spacing: .01em;
+}
+
+a, a:visited, a:link{
+    text-decoration:    none;
+    color:              #41669A;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------
+	2. LAYOUT
+------------------------------*/
+html body{
+	margin-top:		0;
+}
+
+html body div#main{
+	background-color:	#F5F5F5;
+	padding:			0px 25px;
+	position:		relative;
+	width:			760px;
+	top:	120px;
+}
+
+#mainSpacer{
+	padding-top:0px;
+}
+
+/*div.Logo{
+	background-image: url(//static.onthehub.com/production/images/nudspsimple/nudspsimple-banner.png);
+	width: 760px;
+	min-height: 77px;
+}
+*/
+
+html body div#main > table{
+	position:	relative;
+	bottom:	70px;
+}
+
+html body div#main > table table{
+	
+}
+
+#header{
+	position:		relative;
+	width: 760px !important;
+/*	top:	-100px; */
+}
+
+#content{
+	position:		relative;
+/*	top:	-140px; */
+	background-color:	#fff;
+}
+
+html body .SecondaryColor.HeaderStoreNameBar{
+	color: #666;
+	border: 0px;
+	background: #F5F5F5;
+	display: table-row;
+}
+
+html body .SecondaryColor.HeaderStoreNameBar .HeaderStoreName{
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 10px 10px 0px 0px;
+	text-align: left;
+}	
+	
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------
+	3. MODULES
+------------------------------*/
+
+/* E5S LITTLE SECRET */
+.PrimaryColor{
+	background:		transparent !important;
+	
+}
+
+.SecondaryColor{
+	background:		transparent;
+	border:			0px;
+	background:		#B71C1A;
+}
+
+html body div.SecondaryColor{
+	background:		#B71C1A !important}
+
+/*
+	UTILITY NAV
+------------------------------*/
+
+html body #header ul{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #999;
+	margin-bottom: -10px;
+	padding-top: 30px;
+	position: relative;
+	right: -24px;
+	width: 750px;
+	top: -28px;
+}
+
+ul.HeaderText li{	
+	padding:	0 2px 0 10px;
+}
+
+
+#ctl00_pnlUserContext{
+	margin-bottom:	20px !important;
+	position:	relative;
+	left:	20px;
+	bottom:	30px;
+}
+/*
+	MAIN MENU
+------------------------------*/
+html body div.NavigationMenu{
+	position:		relative;
+/*	bottom:			95px; */
+	background: 	transparent url(//uatintegrationstatic.e-academy.com/UatIntegration/themes/MicrosoftHUP/img/bg-main-menu.png) no-repeat top left;
+	height:			54px;
+	color:			#4e4e4e;
+	z-index:		10;
+	margin-top: 10px;
+}
+
+div.NavigationMenu a, div.NavigationMenu a:link, div.NavigationMenu a:visited{
+	color:			#4e4e4e;
+} 
+
+html body table tr td.NavigationMenuItem.SecondaryColor.NavigationMenuSecondaryColor{
+	border-width:	0px;
+	background:		transparent !important;
+}
+
+table.NavigationMenu td.NavigationMenuPrimaryColor a, div.NavigationMenu table.NavigationMenu td.NavigationMenuItem a{
+	font-size:		13px;
+	padding-top:	12px;
+	padding-bottom:	24px;
+	background-color:	transparent;
+	border:			0px none transparent;
+	color:			#4E4E4E !important;
+}
+
+table.NavigationMenu td.NavigationMenuPrimaryColor a:hover, div.NavigationMenu table.NavigationMenu td.NavigationMenuItem a:hover{
+	background-color:	transparent !important;
+}
+
+html body table.NavigationMenu td.NavigationMenuItemSelected a{
+	background:		transparent url(//uatintegrationstatic.e-academy.com/UatIntegration/themes/MicrosoftHUP/img/mainmenu-selected.png) no-repeat bottom center;
+}
+
+.NavigationMenuItemSelected{
+	border: 0px none transparent;
+}
+
+/*
+	CHILD MENU
+----------------------------*/
+html body div.NavigationChildMenu{
+border: 0px none transparent;
+background: #EFEFEF !important;
+padding-top: 20px;
+margin-top: -20px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+text-indent:	15px;
+}
+
+html body div.NavigationChildMenu.PrimaryColor span a{
+	color:	black;
+}
+
+
+/*   Custom Menu Content
+----------------------------*/
+
+#header_container p{
+	padding: 0px;
+	margin:	0px;
+}
+
+.custom-menu-item-img{
+	float:	right;
+}
+
+.clear{
+	height:	1px;
+	weight:	1px;
+	clear:	both;
+	display:	block;
+}
+
+#header_container{
+	position:		relative:
+	z-index: 9;
+}
+
+html body #dsp-custom-menu-item{
+	padding-bottom: 0px;
+	padding-top:	10px;
+	position: relative;
+	background: white;
+	background-color:	#fff !important;	
+	z-index: 9;
+	font-size: 15px;
+	font-weight: normal;
+	margin-top:	-20px;
+	margin-bottom:	-20px;
+}
+
+#dsp-custom-menu-item .ui-widget-content{
+	border:	0px none transparent;
+	padding-top:	0px;
+}
+
+#dsp-custom-menu-item .ContentSectionHeader{
+	color:		#333 !important;
+}
+
+#dsp-custom-menu-item .ui-widget-content p{
+	padding-top:	10px;
+	padding-bottom:	5px;
+	line-height:	18px;
+}
+
+#dsp-custom-menu-item .ui-widget-content p + p{
+	padding-bottom:	0px;
+	line-height:	18px;
+}
+
+#ctl00_ucCultureCurrencySelection_hlCulture{
+	font-size: 90%;
+}
+
+#ctl00_lblUserName {
+	font-weight: normal !important;
+}
+
+#ctl00_cpContent_h1ForgotPassword {
+	color: #41669A !important;
+}
+
+/*
+	SEARCH BOX
+-----------------------------*/
+html body .SearchContainer fieldset{
+	z-index:	999;
+}
+
+#ctl00_pnlSearch {
+	border: 1px solid lightgray;
+	padding: 2px 5px 2px 5px;
+	width: 748px;
+	background: #FFF;
+}
+
+/*
+	SEARCH BOX
+-----------------------------*/
+div#ctl00_cpBetweenBannerAndMenu_ucAnnouncements_pnlAnnouncements{
+	margin-bottom:	10px !important;
+}
+
+/*
+	PRODUCT CATEGORIES
+------------------------------*/
+#ctl00_cpContent_tdProductCategories{
+	
+}
+
+html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]{
+
+}
+
+html body .ContentSectionBody td[id^="ctl00_cpContent_rpProductCategories"]:hover{
+	background-color:	#efefef !important;
+	
+	transition: background-color .2s;
+	-moz-transition: background-color .2s; /* Firefox 4 */
+	-webkit-transition: background-color .2s; /* Safari and Chrome */
+	-o-transition: background-color .2s; /* Opera */
+}
+
+#ctl00_cpContent_tdProductCategories .ContentSectionWrapper.SecondaryColor{
+	border:			1px solid #efefef;
+}
+
+#ctl00_cpContent_tdProductCategories div table td, #ctl00_cpContent_tdProductCategories div div table{
+	border: 0px none transparent;
+	background:	#efefef;
+}	
+
+#ctl00_cpContent_tdProductCategories .ContentSection{
+	
+}
+
+//*LINKS IN CATEGORIES BOX BLANKET 
+	Not needed in this theme since HUP does not use categories.
+	Just in case it does get used we can leave this as is for now
+
+#ctl00_cpContent_tdProductCategories .ContentSectionBody a span span, .ContentSectionHeader a span span{
+	font-size:			12px;
+	font-weight:		normal;
+	background:			transparent url(//uatintegrationstatic.e-academy.com/UatIntegration/themes/MicrosoftHUP/img/categories-listitem-bg.png) no-repeat 0px 5px;
+	padding-left:		10px;
+	color:				#575757;
+}
+*/
+
+.ContentSectionHeader a:hover, .ContentSectionBody a:hover, .ContentSectionHeader a:visited, .StandardColor.ui-widget-content a, .StandardColor.ui-widget-content a:visited{
+	text-decoration:		none;
+	color:					#41669A;
+}
+
+.StandardColor.ui-widget-content a:hover{
+	text-decoration:		underline;
+}
+
+/* Make other links not green */
+#infoTabs ul li a, div.tabs ul.ui-tabs-nav li a span{
+	color:		#575757;
+}
+
+
+/* LINKS IN CATEGORIES BOX */
+.ContentSectionBody{
+
+}
+
+/*
+	STYLING FOR BUTTONS
+------------------------------*/
+.AddToCartButton, .buttons a.positive, button.positive, .buyaddonsbutton, #ctl00_cpContent_rptVerifications_ctl01_btnResendConfirmationEmail, #ctl00_cpContent_btnSubmit, #ctl00_cpContent_btnCancel, #ctl00_cpContent_btnOk, #ctl00_cpContent_btnChangePassword, #ctl00_cpContent_btnRequestEligibility, #ctl00_cpContent_btnRequest, #ctl00_cpContent_upFile, #ctl00_cpContent_btnSave, #ctl00_cpContent_btnRegister, #ctl00_cpContent_btnBack, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_btnBuyUpSellOfferings, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingAddress, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingInfo, #ctl00_cpContent_btnRegisterNow, #ctl00_cpContent_btnSignIn, input#ctl00_cpContent_btnAddOfferingAddons, input#ctl00_cpContent_btnDecline, input#ctl00_cpContent_btnAccept, #ctl00_cpContent_btnChangeBillingAddress, #ctl00_cpContent_btnAddExtendedAccessGuarantee, input[id*='btnRemove'], input[id*='ct100_cpContent_btnAddOfferingAddons'], input[id*='ctl00_cpContent_btnDecline'], input[id*='btnUpdateQuantityChanges'], a#ctl00_cpContent_lhContinueShopping, input#ctl00_cpContent_btnNext, a#ctl00_cpContent_btnNext, #ctl00_cpContent_btnContinue, input[id*='btnBuyAccessGuarantee'], a#ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_hlStartDownload, a.ds-button.sdm, a.ds-button.sdx, html body .buttons a, a#ctl00_cpContent_hlFAQ, .faqButton, html body .faqButton:hover{
+
+		display: inline-block;
+		padding: 4px 14px;
+		margin-bottom: 0;
+		font-size: 14px;
+		line-height: 20px;
+		color: #333 !important;
+		text-align: center;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+		vertical-align: middle;
+		cursor: pointer;
+		background-color: whiteSmoke;
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+		background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+		background-image: -o-linear-gradient(top, white, #E6E6E6);
+		background-image: linear-gradient(to bottom, white, #E6E6E6);
+		background-image: -moz-linear-gradient(top, white, #E6E6E6);
+		background-repeat: repeat-x;
+		border: 1px solid #BBB;
+		border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+		border-bottom-color: #A2A2A2;
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+		filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	}
+}
+
+
+
+html body .buttons a[disabled], html body .buttons a[disabled]:active{
+	cursor: default;
+	background-color: #E6E6E6;
+	background-image: none;
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color:	inherit;
+}
+
+/* Little fix for the SDM for Windows/IE */
+
+html body a#ctl00_cpContent_hlFAQ{
+	background-color: whiteSmoke !important;
+	background-image:	none !important;
+}
+
+/* hovers */
+.AddToCartButton:hover, .buttons a.positive:hover, .buyaddonsbutton:hover, #ctl00_cpContent_rptVerifications_ctl01_btnResendConfirmationEmail:hover, #ctl00_cpContent_btnSubmit:hover, #ctl00_cpContent_btnCancel:hover, #ctl00_cpContent_btnOk:hover, #ctl00_cpContent_btnChangePassword:hover, #ctl00_cpContent_btnRequestEligibility:hover, #ctl00_cpContent_btnRequest:hover, #ctl00_cpContent_upFile:hover, #ctl00_cpContent_btnSave:hover, #ctl00_cpContent_btnRegister:hover, #ctl00_cpContent_btnBack:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_btnBuyUpSellOfferings:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingAddress:hover, #ctl00_cpContent_ucOrderSummary_efvBillingInformation_btnChangeBillingInfo:hover, #ctl00_cpContent_btnRegisterNow:hover, #ctl00_cpContent_btnSignIn:hover, button.positive:hover, input#ctl00_cpContent_btnAddOfferingAddons:hover, input#ctl00_cpContent_btnDecline:hover, input#ctl00_cpContent_btnAccept:hover, #ctl00_cpContent_btnChangeBillingAddress:hover, #ctl00_cpContent_btnAddExtendedAccessGuarantee:hover, input[id*='btnRemove']:hover, input[id*='ctl00_cpContent_btnDecline']:hover, input[id*='ct100_cpContent_btnAddOfferingAddons']:hover, input[id*='btnUpdateQuantityChanges']:hover, a#ctl00_cpContent_lhContinueShopping:hover, input#ctl00_cpContent_btnNext:hover, a#ctl00_cpContent_btnNext:hover, #ctl00_cpContent_btnContinue:hover, input[id*='btnBuyAccessGuarantee']:hover, a#ctl00_cpContent_ucOrderSummary_efvBillingInformation_ucOrderItemSummary_hlStartDownload:hover, a.ds-button.sdm:hover, a.ds-button.sdx:hover, a#ctl00_cpContent_hlFAQ:hover, html body .faqButton:hover{
+	  color: #333333;
+	  text-decoration: none;
+	  background-color: #e6e6e6 !important;
+	  border-color:		#ccc !important;
+	  *background-color: #e6e6e6/*#d9d9d9*/;
+	  /* Buttons in IE7 don't get borders, so darken on hover */
+
+	  background-position: 0 -15px;
+	  -webkit-transition: background-position 0.1s linear;
+	     -moz-transition: background-position 0.1s linear;
+	       -o-transition: background-position 0.1s linear;
+	          transition: background-position 0.1s linear;
+}
+
+
+
+
+
+
+/* ACTIVE LINK IN CATEGORIES BOX */
+#ctl00_cpContent_tdProductCategories .ContentSectionHeader a span span{
+	color:				#7fba00;
+	font-size:			12px !important;
+}
+
+#ctl00_cpContent_tdProductCategories .ui-widget-content{
+	border:				0px none transparent;
+	padding:			5px 0px 5px 0px;
+	background:			#fff;
+	
+	transition: background-color .2s;
+	-moz-transition: background-color .2s; /* Firefox 4 */
+	-webkit-transition: background-color .2s; /* Safari and Chrome */
+	-o-transition: background-color .2s; /* Opera */
+}
+
+
+/* PMV Main Area  */
+#ctl00_cpContent_tdProductCategories + td .ContentSectionWrapper{
+	display:		block;
+
+}
+
+#ctl00_cpContent_tdProductCategories + td .ContentSectionWrapper .ContentSectionBody{
+	border:	0px none transparent;
+	background:	#fff;
+}
+
+
+html body #ctl00_cpContent_tdProductCategories div.ContentSectionWrapper .ContentSectionBody tr td{
+	padding:	5px 0px 5px 10px;
+}
+
+/*
+	PAGINATION
+------------------------------*/
+ul#pagination{
+	list-style:	none;
+}
+
+ul#pagination li{
+	display:	inline;
+	padding-right:	10px;
+}
+
+/*
+	SPECIFIC PAGE STYLES - MOSTLY
+-----------------------------------*/
+
+.buttons button img, .buttons a img{
+	padding-right:	15px;
+}
+
+html body a[id*="AddToCart"].positive{
+	margin: auto;
+	text-align: center;
+	background: #7FBA00;
+	color: white;
+}
+
+html body a[id*="AddToCart"].positive{
+	background: #EFEFEF;
+}
+
+a[id^="ctl00_cpContent_ucOfferingList_rptProducts_ctl00_rptProductLinks"]{
+	padding-left:	20px;
+}
+
+/*
+	INSIDE #CONTENT TRYING TO MANAGE MOST OF THE INTERNAL PAGES
+-----------------------------------*/
+
+html body div#content{
+	width:		740px;
+	padding:	10px;
+}
+
+/*/ WRAPPER /*/
+div#content div.ContentSectionWrapper{
+	display:	block;
+}
+
+/*/ CONTENT SECTION WRAPER /*/
+div#content div.ContentSectionWrapper div.ContentSection{
+
+}
+
+
+html body .smaller, html body .mall, html body .XSmall{
+	font-size: inherit;
+}
+
+html body .ui-widget-content{
+	border:0px none transparent;
+	background:	#fff;
+}
+
+html body table#ctl00_cpContent_fvOfferingDetails_tblOffering tr td{
+	height:	auto;
+}
+
+html body table#ctl00_cpContent_fvOfferingDetails_tblOffering h3{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ADs */
+
+div#ctl00_rightContent{
+	position:	relative;
+	left:	30px;
+}
+
+.HeaderText a, .HeaderText a:visited, a.HeaderText, a.HeaderText:visited, .ContentText a, .ContentText a:visited, a.ContentText, a.ContentText:visited, .FooterText a, .FooterText a:visited, a.FooterText, a.FooterText:visited{
+	color:	#41669A !important;
+}
+
+.HeaderText a:hover, a.HeaderText:hover, .ContentText a:hover, a.ContentText:hover, .FooterText a:hover, a.FooterText:hover{
+		color:	#41669A !important;
+		text-decoration: underline;
+
+}
+
+div.ContentSectionHeader.ui-widget-header
+ { 
+	border: medium none; 
+	background: none repeat scroll 0 0 transparent; 
+	color: #fff;
+	/*font-weight: inherit;*/ 
+}
+
+.ui-widget-header {
+	font-weight: normal !important;
+}
+
+/* Disabled look disabled */
+
+input[disabled="disabled"]{
+	background: #EFEFEF;
+	cursor: no-drop;
+}
+
+/*-----------------------------
+	4. SDM
+------------------------------*/
+
+#languageControl dl dd ul{
+	z-index:		9999;
+	position:		absolute;
+}
+
+html body .PageHeaderContainer{
+	margin-bottom:	45px;
+	position: relative;
+	z-index: 9999;	
+}
+
+div#ctl00_cpContent_pnlOrderSummary div.SdmOrderHeaderBackground{
+	color: 	#fff;
+}
+
+div#ctl00_cpContent_pnlOrderItems div.SdmOrderHeaderBackground{
+	color:	#fff;
+}
+
+
+.ds-button 
+{
+	font-weight: bold;
+}
+
+#main-container 
+{
+	padding: 0.5em 0 0 0;
+}
+
+/* Announcement Fix */
+
+html body div.WebStoreAnnouncementDialog, html body div.WebStoreAnnouncementDialog .ui-widget-header{
+	background:		#7fba00 !important;
+	border: 2px solid #7fba00;
+}
+
+html body div.WebStoreAnnouncementDialog .ui-widget-header *{
+     color: #fff;
+}
+
+html body div.WebStoreAnnouncementDialog .ui-dialog-content.ui-widget-content{
+background-image: none;
+background-color: #fff;    
+}
