@@ -682,7 +682,7 @@ div#ctl00_rightContent{
 	left:	30px;
 }
 
-.HeaderText a, .HeaderText a:visited, a.ShowDownloadOptions, a.HeaderText, a.HeaderText:visited, .ContentText a, .ContentText a:visited, a.ContentText, a.ContentText:visited, .FooterText a, .FooterText a:visited, a.FooterText, a.FooterText:visited{
+.HeaderText a, .HeaderText a:visited, a.ShowDownloadOptions, a.ShowDownloadOptions:visited, a.HeaderText, a.HeaderText:visited, .ContentText a, .ContentText a:visited, a.ContentText, a.ContentText:visited, .FooterText a, .FooterText a:visited, a.FooterText, a.FooterText:visited{
 	color:	#41669A !important;
 }
 
