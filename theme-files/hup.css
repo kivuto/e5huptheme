@@ -682,11 +682,11 @@ div#ctl00_rightContent{
 	left:	30px;
 }
 
-.HeaderText a, .HeaderText a:visited, a.ShowDownloadOptions, a.ShowDownloadOptions:visited, a.HeaderText, a.HeaderText:visited, .ContentText a, .ContentText a:visited, a.ContentText, a.ContentText:visited, .FooterText a, .FooterText a:visited, a.FooterText, a.FooterText:visited{
+.HeaderText a, .HeaderText a:visited, a#ctl00_ucCultureCurrencySelection_hlCulture, a#ctl00_ucCultureCurrencySelection_hlCulture:visited, a#ctl00hlSignInOut, a#ctl00hlSignInOut:visited, a.ShowDownloadOptions, a.ShowDownloadOptions:visited, a.HeaderText, a.HeaderText:visited, .ContentText a, .ContentText a:visited, a.ContentText, a.ContentText:visited, .FooterText a, .FooterText a:visited, a.FooterText, a.FooterText:visited{
 	color:	#41669A !important;
 }
 
-.HeaderText a:hover, a.HeaderText:hover, a.ShowDownloadOptions:hover .ContentText a:hover, a.ContentText:hover, .FooterText a:hover, a.FooterText:hover{
+.HeaderText a:hover, a.HeaderText:hover, a#ctl00_ucCultureCurrencySelection_hlCulture:hover, a#ctl00hlSignInOut:hover, a.ShowDownloadOptions:hover .ContentText a:hover, a.ContentText:hover, .FooterText a:hover, a.FooterText:hover{
 		color:	#41669A !important;
 		text-decoration: underline;
 
