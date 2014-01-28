@@ -299,6 +299,10 @@ html body table.NavigationMenu td.NavigationMenuItemSelected a{
 	border: 0px none transparent;
 }
 
+.NavigationMenuItemSelected a{
+	color: #000 !important;
+}
+
 /*
 	CHILD MENU
 ----------------------------*/
