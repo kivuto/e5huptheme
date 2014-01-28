@@ -284,7 +284,7 @@ table.NavigationMenu td.NavigationMenuPrimaryColor a, div.NavigationMenu table.N
 	padding-bottom:	24px;
 	background-color:	transparent;
 	border:			0px none transparent;
-	color:			#4E4E4E !important;
+	color:			#4E4E4E;
 }
 
 table.NavigationMenu td.NavigationMenuPrimaryColor a:hover, div.NavigationMenu table.NavigationMenu td.NavigationMenuItem a:hover{
@@ -293,14 +293,13 @@ table.NavigationMenu td.NavigationMenuPrimaryColor a:hover, div.NavigationMenu t
 
 html body table.NavigationMenu td.NavigationMenuItemSelected a{
 	background:		transparent url(//uatintegrationstatic.e-academy.com/UatIntegration/themes/MicrosoftHUP/img/mainmenu-selected.png) no-repeat bottom center;
+	color: #000 !important;
+	font-weight: bold;
+	font-size: 14px !important;
 }
 
 .NavigationMenuItemSelected{
 	border: 0px none transparent;
-}
-
-.NavigationMenuItemSelected a{
-	color: #000 !important;
 }
 
 /*

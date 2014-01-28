@@ -23,7 +23,7 @@ The image hup-banner.jpg is to be used as the banner to be applied to all new st
 
 ## Tasks for Marketing when developing new e5 themes
 
-### STEP 1 - Setting up the JavaScripts
+### STEP 1 - Setting up the JavaScript files if needed as part of theme
 1. Go to Miscellaneous, and select 'Web Site Scripts'
 2. Hit 'New'.
 3. Name it 'hupthemejs' with the default values, and hit 'Save'.
