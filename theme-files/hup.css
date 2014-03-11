@@ -71,7 +71,9 @@ h3.ui-state-active span {
 .ContentSectionHeader .Medium {
 	color: #000 !important;
 }
-
+.ContentSectionHeader {
+	color: #000 !important;
+}
 
 
 /* EDITS TO THE HELP PAGE SEARCH BAR */
