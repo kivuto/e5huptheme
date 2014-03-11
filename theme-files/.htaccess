@@ -1,0 +1,42 @@
+###############################################################
+#
+# HTACCESS
+# 	
+#	- Can be used on all staging sites
+#		- To update simply create a new .htpasswd file and edit path for new server
+# 	- Allows accesss from Kivuto Office network as well as e5 server
+#	- Has password authentication as secondary access method
+#
+###############################################################
+
+###############################################################
+#	Allow viewing contents of folders
+###############################################################
+
+Options +Indexes 
+
+###############################################################
+# Require Password Authentication
+###############################################################
+
+# AuthName "Please Authenticate"
+# AuthType Basic
+# AuthUserFile /nfs/c10/h03/mnt/143139/data/.htpasswd
+# Require valid-user
+
+
+###############################################################
+# Allow access if either of the above methods are satisified
+###############################################################
+
+# satisfy any 
+
+###############################################################
+# Allow access by IP
+###############################################################
+
+# order deny,allow
+# deny from all
+# allow from 209.217.89.0 209.35.48.0 206.191.49.130
+
+
