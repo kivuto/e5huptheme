@@ -69,6 +69,11 @@ h3.ui-state-active span {
 	color: #FFF;
 }
 
+.HelpSearchPanel {
+	width: 716px !important;
+}
+
+
 /*
 	REMOVE ROUNDED CORNERS - removed style as they get turned off in DSP
 ------------------------------*/
