@@ -63,7 +63,7 @@ div.ContentSection.StandardColor.ui-widget-content.ui-corner-all {
 
 /* NEW EFFECT FOR THE HELP PAGE */
 h3.ui-state-active {
-	background: #A3A3A3;
+	background: #A3A3A3 !important;
 }
 h3.ui-state-active span {
 	color: #FFF;
@@ -71,6 +71,10 @@ h3.ui-state-active span {
 
 .HelpSearchPanel {
 	width: 716px !important;
+}
+
+.SearchImageButton, .HelpSearchImageButton {
+	top: 3px !important;
 }
 
 
