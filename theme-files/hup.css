@@ -85,6 +85,14 @@ h3.ui-state-active span {
 	top: 3px !important;
 }
 
+/* CHANGE FONT COLOR ON PRODUCT DESCIPTION FOR READABILITY */
+.SmallGray
+{
+    font-size: 80%;
+    color: #3D3D3D;
+}
+
+
 /*
 	JQUERY UI FIX AFTER IT WAS UPDATED!!!
 ------------------------------*/
