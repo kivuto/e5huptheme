@@ -92,6 +92,10 @@ h3.ui-state-active span {
 	display: inline-block !important;
 }
 
+.ui-icon-triangle-1-s {
+	display: inline-block !important;
+}
+
 /*
 	REMOVE ROUNDED CORNERS - removed style as they get turned off in DSP
 ------------------------------*/
