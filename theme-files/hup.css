@@ -85,6 +85,12 @@ h3.ui-state-active span {
 	top: 3px !important;
 }
 
+/*
+	JQUERY UI FIX AFTER IT WAS UPDATED!!!
+------------------------------*/
+.ui-icon-triangle-1-e {
+	display: inline-block !important;
+}
 
 /*
 	REMOVE ROUNDED CORNERS - removed style as they get turned off in DSP
